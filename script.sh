@@ -2,8 +2,8 @@
 #
 #
 # 
-username="Admin"
-passwd="testyantra123"
+username="Developer"
+passwd="Fireflink@123"
 echo "enter the user name"
 read user
 echo "enter the passwd"
