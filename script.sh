@@ -2,8 +2,8 @@
 #
 #
 # 
-username="Developer"
-passwd="Fireflink@123"
+username="Admin"
+passwd="testyantra123"
 echo "enter the user name"
 read user
 echo "enter the passwd"
@@ -40,7 +40,28 @@ then
 elif [ $age -gt 19 -a $age -lt 59 ];
 then 
 	echo "adult"
-elif [ $age -gt 60 ];
+fi
+username="Developer"
+passwd="Fireflink@123"
+echo "enter the user name"
+read userr
+echo "enter the passwd"
+read passs
+if [ $username == $userr ] && [ $passwd == $passs ];
+then
+        echo "Authentication Sucessfull"
+else
+        echo "Authentication Unsucessfull"
+fi
+echo "enter the salary"
+read sal
+if [ $sal -eq 15000 ];
+then
+        echo "taxis 2%"
+fi
+echo " enter the age"
+read age
+if [ $age -gt 60 ];
 then
 	echo " oldage"
 fi	
