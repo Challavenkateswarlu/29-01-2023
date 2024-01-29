@@ -37,8 +37,11 @@ then
 elif [ $age -gt 12 -a $age -lt 20 ];
 then
 	echo "teenager"
-elif [ $age -gt 19 ];
+elif [ $age -gt 19 -a $age -lt 59 ];
 then 
 	echo "adult"
+elif [ $age -gt 60 ];
+then
+	echo " oldage"
 fi	
 
